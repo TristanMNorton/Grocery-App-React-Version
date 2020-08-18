@@ -2,6 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import Container from '@material-ui/core/Container'
 import RecipeList from '../components/RecipeList'
+import RecipeAddForm from '../components/RecipeAddForm'
 import Grid from '@material-ui/core/Grid'
 
 class Recipes extends React.Component {
@@ -31,7 +32,7 @@ class Recipes extends React.Component {
         <Container maxWidth='md'>
           <Grid container spacing={3}>
             <Grid item xs={12} md={4}>
-              <h2>To be Form</h2>
+              <RecipeAddForm />
             </Grid>
             <Grid item xs={12} md={8}>
               <RecipeList recipes={recipes} />

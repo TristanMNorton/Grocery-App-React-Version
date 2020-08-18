@@ -5,9 +5,9 @@ import {
   Route,
   Link
 } from 'react-router-dom'
-import Recipes from './Views/Recipes'
-import IngredientList from './Views/IngredientList'
-import RecipeDetail from './Views/RecipeDetail'
+import Recipes from './views/Recipes'
+import IngredientList from './views/IngredientList'
+import RecipeDetail from './views/RecipeDetail'
 import './App.css'
 
 function App () {
